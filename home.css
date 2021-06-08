@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_title {
+    font-size: 64px;
+    margin: 15px auto 30px auto;
+    color: crimson;
+    font-weight: 700;
+}
+
+._carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel_image_box {
+    max-width: 800px;
+    max-height: 500px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.section2 {
+    display: flex;
+    background: black;
+    color: white;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.temp0 {
+    background: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.temp2,
+.temp3 {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+.temp2 {
+    font-family: cursive;
+}
+
+.temp3 {
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.section2_title,
+.section3_title {
+    font-size: 48px;
+    color: crimson;
+    font-style: bold;
+}
+
+.section2_title {
+    font-weight: 700;
+}
+
+.section3_title {
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.section2_text,
+.section3_text {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+.footer {
+    height: 80px;
+    background: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.temp4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1000px) {
+    .main_title {
+        font-size: 56px;
+    }
+}
+
+@media (max-width: 720px) {
+    .main_title {
+        font-size: 44px;
+    }
+    .section2_title,
+    .section3_title {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 540px) {
+    .main_title {
+        font-size: 32px;
+    }
+    .section2_title,
+    .section3_title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 410px) {
+    .main_title {
+        font-size: 24px;
+    }
+    .section2_title,
+    .section3_title {
+        font-size: 22px;
+    }
+    .section2_text,
+    .section3_text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 312px) {
+    .main_title {
+        font-size: 21px;
+    }
+    .section2_title,
+    .section3_title {
+        font-size: 18px;
+    }
+    .section2_text,
+    .section3_text {
+        font-size: 16px;
+    }
+}
